@@ -1,0 +1,27 @@
+body{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
+h1{
+  color: white;
+  text-align: left;
+  text-shadow: 2px 2px 2px #02010a;
+}
+#links{
+  float: right;
+}
+#imgcentral{
+  background-color: #82c3a6;
+centrar
+}
+#imgsecundarias{
+  background-color: #d5c75f;
+  border: 1px solid black;
+  flex: auto;
+  }
+.izquierda{
+  float: left;
+}
+.derecha{
+  float: right;
+}
