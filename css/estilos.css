@@ -1,5 +1,16 @@
+@font-face {
+  font-family: DancingScript;
+  src: url(https://fonts.google.com/specimen/Dancing+Script?selection.family=Dancing+Script); 
+}
 body{
+  font-family: DancingScript;
   background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
+#cabecera{
+  background-color: #5b7989;
+  width: 100;
+  height: 20%;
   border-radius: 10px 10px 0px 0px;
 }
 h1{
@@ -9,19 +20,56 @@ h1{
 }
 #links{
   float: right;
+  color: white;
 }
+#inicio{
+  text-decoration: none;
+}
+
 #imgcentral{
   background-color: #82c3a6;
-centrar
+  width: 90%;
+  height: 40%;
+  display:block;
+  margin: 0 auto;
 }
 #imgsecundarias{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 50%;
   background-color: #d5c75f;
   border: 1px solid black;
-  flex: auto;
+
   }
+
+}
 .izquierda{
-  float: left;
+  order: 1;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px #82c3a6;
+  margin: auto;
+  transition: all 2s;
+}
+.izquierda:hover{
+  transform: rotateY(-10deg);
 }
 .derecha{
-  float: right;
+  order: 2;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px #82c3a6;
+  margin: auto;
+  transition: all 2s;
+}
+.dereccha:hover{
+  transform: translate(-5px 20px);
+}
+footer{
+  font-family: DancingScript;
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  height: 20%;
+  background-color: #C6d5c5;
 }

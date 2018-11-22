@@ -2,26 +2,67 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width-device=width, user-escalable=no">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
     <link rel="stylesheet" href="css/estilos.css">
     <title>Comenzando con la Fotografia</title>
   </head>
+
   <body>
-  <header id="cabecera">
-    <h1 id="titulo">Comenzando con la Forografía</h1>
-    <navbar id="links">
-    	<a href="index.html">Inicio</a></li>
-    	<a href="paisajes/paisajes.html">Paisajes</a></li>
-    	<a href="retratos/retratos.html">Retratos</a></li>
+  <section id="cabecera">
+  <header id="titulo">
+    <h1>Comenzando con la Forografía</h1>
+    <navbar id="enlaces">
+    	<a id="inicio" href="index.html">Inicio</a>
+    	<a href="paisajes/paisajes.html">Paisajes</a>
+    	<a href="retratos/retratos.html">Retratos</a>
     </navbar>
   </header>
+  </section>
   <section id="imgprincipal">
     <img src="images/central.jpg" alt="central">
   </section>
   <section id="imgsecundarias">
-    <img class="izquierda" src="images/paisajes.jpg" alt="paisajes">
-    <img class="derecha" src="images/retratos.jpg" alt="">
+    <div class="izquierda">
+    <img class="paisaje" src="images/paisajes.jpg" alt="paisajes">
+    </div>
+    <div class="derecha">
+    <img class="retrato" src="images/retratos.jpg" alt="">
+    </div>
   </section>
-
   </body>
+
+  <footer>
+    <section id="piedepagina">
+      <article class="columna1">
+        <h2>Contacto</h2>
+        <ul id="contacto">
+          <a id="mail" href="">jorgemasariel@hotmail.com</a>
+          <li id="direccion">Matienzo 2830 - Mendoza - Argentina</li>
+          <li id="telefono">/(0261)155166648</li>
+        </ul>
+      </article>
+      <article class="columna2">
+        <h2>Términos y Condiciones</h2>
+        <ul id="terminos">
+          <a id="condiciones" href="">Conoce nuestros términos y condiciones</a>
+        </ul>
+      </article>
+      <article class="columna3">
+        <h2>Redes Sociales</h2>
+        <ul id="Redes">
+          <a href="https://www.facebook.com/">Facebook</a>
+          <a href="https://www.instagram.com">Instagram</a>
+          <a href="https://twitter.com/?lang=es">Twitter</a>
+        </ul>
+      </article>
+      <article class="columna4">
+        <ul id="Derechos">
+          <h2>Derechos</h2>
+          <li>Jorge Mas</li>
+          <li> <img src="images/copy.jpg" alt="copyright"> </li>
+          <li>2018</li>
+        </ul>
+      </article>
+    </section>
+  </footer>
 </html>
