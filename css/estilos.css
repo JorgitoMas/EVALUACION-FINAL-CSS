@@ -59,22 +59,26 @@ a{
 .inca{
   margin: auto;
   width: 90%;
+  box-shadow: 2px 2px 2px #02010a;
 }
 
 #imgsecundaria{
   background-color: #d5c75f;
-  border: 2px;
+  border: 1px;
   display: flex;
   flex-direction: row;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .viña{
   order: 1;
   display: block;
+  width: 80%;
   margin: auto;
-  width: 45%;
   box-shadow: 2px 2px 2px #82c3a6;
   border: 2px;
+  height: 90%;
   transition: transform 2s;
 }
 
@@ -85,14 +89,23 @@ a{
 .hombre{
   order: 2;
   display: block;
+  width: 80%;
   margin: auto;
-  width: 45%;
   box-shadow: 2px 2px 2px #82c3a6;
   border: 2px;
+  height: 90%;
   transition: transform 2s;
 }
 .hombre:hover{
   transform: translate(20px, -5px);
+}
+.foto1{
+  text-align: center;
+  width: 50%;
+}
+.foto2{
+  text-align: center;
+  width: 50%;
 }
 
 footer{
@@ -111,6 +124,11 @@ footer li{
   text-align: left;
 }
 
+footer li a {
+  font-size: 1.2em;
+  padding-bottom: 2%;
+}
+
 div h2{
   font-size: 2em;
   text-align: center;
@@ -122,7 +140,8 @@ div h2{
 }
 
 ul img{
-  width: 20px;
+  width: 15px;
+  float: left;
 }
 
 ul a{
@@ -179,15 +198,47 @@ ul a{
     margin-bottom: 2%;
   }
 
+  .foto1{
+    width: 100%;
+  }
+
+  .foto2{
+    width: 100%;
+  }
+
   footer{
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
+    padding: 5% 5%;
+    text-align: left;
   }
 
   div h2{
     text-align: left;
   }
 
+  footer li a {
+    font-size: 1.2em;
 }
-poner en una div el titulo y en otra div el nav en el comun uno al lado de otro gggy en media qery ponerlos uno abajo de otro
+
+.columna1{
+  width: 90%;
+  order: 1;
+
+}
+
+.columna2{
+  width: 90%;
+  order: 2;
+
+}
+
+.columna3{
+  width: 90%;
+  order: 3;
+
+}
+
+.columna4{
+  width: 90%;
+  order: 4;
